@@ -1,4 +1,5 @@
-iniciar o git: git init 
+Iniciar o git: git init 
+inciar um novo repositorio na nuvem|: git remote add origin endereçoDoRepositorioNoGitHub
 Ver status: git status
 Atualizar o arquivo no git: git add .
 Antes de enviar o arquivo fazer comentario com: git commit -m "Comentario"
@@ -15,11 +16,15 @@ criar uma branch: git branch nomeDaBranch
 Mudar de branch: git checkout nomeDaBranch
 Quando for fazer o push do arquivo para nova branch copiar e colar o codigo apresentado, ex:
 git push --set-upstream origin nomeDaBranch
+Criar uma nova branch copiando os arquivos de outra: git checkout -b nomeDaNovaBranch nomeDaBranchQueVaiSerCopiada
+
 
 Merge (fusão):
 1 - Entrar na branch que vai receber a atualização (git checkout nomeDaBranch)
 2 - Fazer o download do arquivo se desejar com o comando: git pull (sobrescreve o arquivo com o mesmo nome na pasta)
 3 - Digitar o codigo: git merge (nome da branch que vai ser copiada)
+
+
 
 
 
