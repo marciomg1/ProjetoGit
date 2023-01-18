@@ -3,8 +3,34 @@ Ver status: git status
 Atualizar o arquivo no git: git add .
 Antes de enviar o arquivo fazer comentario com: git commit -m "Comentario"
 Enviar o arquivo: git push
+Se for enviar pela primeira vez copiar e colar o cod apresentado ex:
+git push --set-upstream origin nomeDaBranch
+
 Ver historico das atualizações: git reflog
 Alterar o arquivo para versao anterior ou outra apresentada no historico: git reset --hard digitar a id(primeira sequencia de numeros)
+
+Branch (Galhos):
+Ver os branchs: git branch
+criar uma branch: git branch nomeDaBranch
+Mudar de branch: git checkout nomeDaBranch
+Quando for fazer o push do arquivo para nova branch copiar e colar o codigo apresentado, ex:
+git push --set-upstream origin nomeDaBranch
+
+Merge (fusão):
+1 - Entrar na branch que vai receber a atualização (git checkout nomeDaBranch)
+2 - Fazer o download do arquivo se desejar com o comando: git pull (sobrescreve o arquivo com o mesmo nome na pasta)
+3 - Digitar o codigo: git merge (nome da branch que vai ser copiada)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
