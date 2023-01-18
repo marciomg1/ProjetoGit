@@ -1,7 +1,8 @@
-Meu nome
-meu endereço
-minha senha
-terceira linha
-quarta linha
+iniciar o git: git init 
+Ver status: git status
+Atualizar o arquivo no git: git add .
+Antes de enviar o arquivo fazer comentario com: git commit -m "Comentario"
+Enviar o arquivo: git push
+
 
 
